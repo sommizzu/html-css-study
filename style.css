@@ -1,3 +1,3 @@
-div .new-style{
+div>.new-style{
   color:blue;
 } //div .new-style div태그 아래에 있는 모든 자손들중 스타일이 new-style을 가진 태그만
