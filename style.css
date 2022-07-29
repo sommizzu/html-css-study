@@ -1,21 +1,31 @@
-.box {
-  border:50px solid red;
-  padding:50px;
-  width:200px;
-  margin-bottom:20px;
+h1{
+  color:#9b59b6
 }
 
-.green {
-  border-color:green;
-  /* display: none; */
-  /* visibility: hidden; */
+p{
+  text-size-adjust: 16px;
+  font-family:Verdana;
+  font-style:italic;
 }
 
-.blue {
-  border-color:blue;
+p::first-letter {
+  font-size: 200%;
+  color:  #2980b9;
 }
 
+h1::before {
+  content: "Topic:";
+}
 
-//display:none - 완전히 사라짐, 공간도 사라진다.
+h1:first-child {
+ text-align: center;
+} 
 
-//visibility:hidden - 사라지지만, 공간은 남겨진다
+.challenge2 {
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  padding-left:10%;
+}
