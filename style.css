@@ -4,5 +4,10 @@
 }
 
 .border-blue{
-  border: 5px solid blue;
+  border: 1px solid blue;
+}
+
+.img-size{
+  width:200px;
+  height:200px;
 }
