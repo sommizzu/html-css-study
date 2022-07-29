@@ -1,7 +1,21 @@
-div p{
-  color:blue;
-} 
-//1.class를 이용한 스타일 추가
-//2.id를 이용
-//3.직접적으로 스타일 주기
-//4.복합선택자
+.box {
+  border:50px solid red;
+  padding:50px;
+  width:200px;
+  margin-bottom:20px;
+}
+
+.green {
+  border-color:green;
+  /* display: none; */
+  /* visibility: hidden; */
+}
+
+.blue {
+  border-color:blue;
+}
+
+
+//display:none - 완전히 사라짐, 공간도 사라진다.
+
+//visibility:hidden - 사라지지만, 공간은 남겨진다
