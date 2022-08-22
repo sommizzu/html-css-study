@@ -20,9 +20,10 @@
 } 
 
 .locate{
-  position:relative;
+  position:absolute;
   left:30px;
   top:30px;  
 }
 
-//position relative : 있던 위치에서 top,left,bottom,right 에 의해 움직임
+//absolute : 절대적인, 부모 태그 기준으로 움직임.
+//화면픽셀의 (30,30)으로 옴
