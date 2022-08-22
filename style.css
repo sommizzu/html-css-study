@@ -20,10 +20,9 @@
 } 
 
 .locate{
-  position:absolute;
+  position:static;
   left:30px;
   top:30px;  
 }
 
-//absolute : 절대적인, 부모 태그 기준으로 움직임.
-//화면픽셀의 (30,30)으로 옴
+//static - 웹 브라우저 기본값 - div순서대로 보여줌
