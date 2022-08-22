@@ -20,9 +20,7 @@
 } 
 
 .locate{
-  position:static;
+  position:fixed;
   left:30px;
   top:30px;  
 }
-
-//static - 웹 브라우저 기본값 - div순서대로 보여줌
