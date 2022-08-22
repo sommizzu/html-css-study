@@ -1,26 +1,9 @@
-.box{
+.mother{
+  border:1px solid red;
+}
+
+.children{
+  background-color:aqua;
   width:100px;
   height:100px;
-}
-
-.red{
-  background-color:red;
-}
-
-.yellow{
-  background-color:yellow;
-}
-
-.blue{
-  background-color:blue;
-}
-
-.green{
-  background-color:green;
-} 
-
-.locate{
-  position:sticky;
-  left:30px;
-  top:30px;  
 }
