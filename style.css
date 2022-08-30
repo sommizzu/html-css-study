@@ -1,6 +1,7 @@
 .mother{
   border:1px solid red;
   display:flex;
+  justify-content: flex-end;
 }
 
 .children{
@@ -8,5 +9,3 @@
   width:100px;
   height:100px;
 }
-
-//세로가 가로 정렬이 됨
